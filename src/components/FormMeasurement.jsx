@@ -21,7 +21,7 @@ export default function FormMeasurements(){
                             type="number" 
                             name="Waistline" 
                             value={ waistline } 
-                            onChange={(event) => setWaistline(event.target.value)} 
+                            onChange={( event ) => setWaistline(event.target.value)} 
                         />
                     </div>
                     
@@ -31,7 +31,7 @@ export default function FormMeasurements(){
                             type="number" 
                             name="Chest" 
                             value={ chest } 
-                            onChange={(event) => setChest(event.target.value)} 
+                            onChange={( event ) => setChest(event.target.value)} 
                         />
                     </div>
                     
@@ -41,7 +41,7 @@ export default function FormMeasurements(){
                             type="number" 
                             name="Belly" 
                             value={ belly } 
-                            onChange={(event) => setBelly(event.target.value)} 
+                            onChange={( event ) => setBelly(event.target.value)} 
                         />
                     </div>
                     
@@ -51,7 +51,7 @@ export default function FormMeasurements(){
                             type="number" 
                             name="Hip" 
                             value={ hip } 
-                            onChange={(event) => setHip(event.target.value)} 
+                            onChange={( event ) => setHip(event.target.value)} 
                         />
                     </div>
                     
@@ -61,7 +61,7 @@ export default function FormMeasurements(){
                             type="number" 
                             name="Thigh" 
                             value={ thigh } 
-                            onChange={(event) => setThigh(event.target.value)} 
+                            onChange={( event ) => setThigh(event.target.value)} 
                         />
                     </div>
                 
