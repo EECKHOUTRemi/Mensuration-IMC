@@ -64,11 +64,7 @@ export default function FormMeasurements(){
                             onChange={( event ) => setThigh(event.target.value)} 
                         />
                     </div>
-                
                 </div>
-            
-            
-
         </div>
         </>
     )
